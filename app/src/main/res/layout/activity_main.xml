@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.layoutdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="FrameLayout"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_below="@+id/btn_framelayout"
+        android:id="@+id/btn_absolutelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="AbsoluteLayout"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_below="@+id/btn_absolutelayout"
+        android:id="@+id/btn_tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TableLayout"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_below="@+id/btn_tablelayout"
+        android:id="@+id/btn_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LinearLayout"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_below="@+id/btn_linearlayout"
+        android:id="@+id/btn_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RelativeLayout"
+        android:gravity="center"/>
+</RelativeLayout>
